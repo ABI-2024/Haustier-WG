@@ -2,12 +2,17 @@
 //
 
 #include <iostream>
+#include "Katze.h"
+using namespace std;
 
 int main()
 {
     std::cout << "Hello World!\n";
     std::cout << "Hello ihr da!\n";
     std::cout << "Ich bin hier!\n";
+
+    Katze* objekt1 = new Katze("Fabio");
+    cout << objekt1->sprich() << endl;
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
