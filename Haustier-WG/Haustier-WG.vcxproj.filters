@@ -26,5 +26,8 @@
     <ClInclude Include="Hund.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Maus.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
