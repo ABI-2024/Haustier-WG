@@ -142,6 +142,7 @@
     <ClCompile Include="Haustier-WG.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Hund.h" />
     <ClInclude Include="Katze.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

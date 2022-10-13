@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Katze.h"
+#include "Hund.h"
 using namespace std;
 
 int main()
@@ -13,6 +14,8 @@ int main()
 
     Katze* objekt1 = new Katze("Fabio");
     cout << objekt1->sprich() << endl;
+    Hund* objekt2 = new Hund("Oibaf");
+    cout << objekt2->sprich() << endl;
 }
 
 // Programm ausführen: STRG+F5 oder Menüeintrag "Debuggen" > "Starten ohne Debuggen starten"
