@@ -8,12 +8,13 @@ using namespace std;
 
 int main()
 {
+    Katze* objekt1 = new Katze("Fabio");
+    cout << objekt1->sprich() << endl;
     std::cout << "Hello World!\n";
     std::cout << "Hello ihr da!\n";
     std::cout << "Ich bin hier!\n";
 
-    Katze* objekt1 = new Katze("Fabio");
-    cout << objekt1->sprich() << endl;
+
     Hund* objekt2 = new Hund("Oibaf");
     cout << objekt2->sprich() << endl;
 }
