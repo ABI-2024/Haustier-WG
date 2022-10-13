@@ -4,6 +4,7 @@
 #include <iostream>
 #include "Katze.h"
 #include "Hund.h"
+#include"Maus.h"
 using namespace std;
 
 int main()
@@ -15,6 +16,7 @@ int main()
     std::cout << "Hello World!\n";
     std::cout << "Hello ihr da!\n";
     std::cout << "Ich bin hier!\n";
+    Maus* objekt1 = new Maus("Fabio");
 
 }
 
